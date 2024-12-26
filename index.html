@@ -47,7 +47,7 @@
             <div id="nav-links" class="hidden flex-col md:flex md:flex-row space-x-8 font-medium">
                 <a href="#" class="hover:text-primary animate-on-scroll slide-in-left animate-underline" >Home</a>
                 <a href="#about" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="100ms">About</a>
-                <a href="#blog" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="250ms">Blog</a>
+                <a href="#blogs" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="250ms">Blog</a>
             </div>
             <div class="flex items-center space-x-4">
                 <a href="#contact" class="scroll-smooth px-5 py-2 bg-primary text-white cursor-pointer rounded-full font-medium hover:bg-opacity-90 transition">Contact Us</a>
@@ -139,7 +139,7 @@
                 <!-- About Me Text -->
                 <div>
                     <h2 class="text-primary text-lg font-semibold uppercase tracking-wide">I Am a Web Developer</h2>
-                    <h1 class="text-4xl font-medium mt-3 animate-underline">About Me</h1>
+                    <h1 class="text-4xl font-semibold mt-3 animate-underline">About Me</h1>
                     <p class="mt-5 text-gray-600 leading-relaxed">
                         My name is Hevin. I have been studying UI/UX Design since October 2020. I like creating cool design projects.
                     </p>
@@ -216,6 +216,36 @@
                         </tbody>
                     </table>
                 </div>
+                <div>
+                    <h3 class="text-2xl font-medium mb-6">Experience</h3>
+                    <table>
+                        <tbody>
+                            <tr class="border-t text-lg font-poppins flex gap-3 p-3">
+                                <td>2014-18</td>
+                                <td>
+                                    <div>
+                                        <div>
+                                            Computer Science
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="border-t text-lg font-poppins flex gap-3 p-3">
+
+                                <td>2014-18</td>
+                                <td>Computer Science</td>
+                                <td>Harvard University</td>
+                            </tr>
+                            <tr class="border-t text-lg font-poppins flex gap-3 p-3">
+
+                                <td>2014-18</td>
+                                <td>Computer Science</td>
+                                <td>Harvard University</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
         <section id="blogs" class="max-w-6xl mx-auto py-16 px-5">
@@ -229,12 +259,12 @@
         
             <div class="grid gap-8 mt-10 md:grid-cols-2">
                 <!-- Blog Item -->
-                <div class="flex items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 hover:shadow-lg transition">
+                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 border-b transition">
                     <div class="ml-20">
-                        <h3 class="text-lg font-semibold">What is Digital Branding?</h3>
+                        <h3 class="text-lg font-semibold transition :text-primary ">What is Digital Branding?</h3>
                         <p class="text-gray-500 mt-2">Creative</p>
                     </div>
-                    <a href="#" class="ml-auto text-yellow-500 hover:scale-105 transition-transform">
+                    <a href="#" class="ml-auto text-primary  group-hover:translate-x-2 transition-transform ">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
@@ -242,12 +272,12 @@
                 </div>
         
                 <!-- Blog Item -->
-                <div class=" flex items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  shadow hover:shadow-lg transition">
+                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  transition border-b">
                     <div class="ml-20">
-                        <h3 class="text-lg font-semibold">How Much Does Cost?</h3>
+                        <h3 class="text-lg font-semibold transition group-hover:text-primary">How Much Does Cost?</h3>
                         <p class="text-gray-500 mt-2">Creative</p>
                     </div>
-                    <a href="#" class="ml-auto text-yellow-500 hover:scale-105 transition-transform">
+                    <a href="#" class="ml-auto text-primary group-hover:translate-x-2 transition-transform">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
@@ -255,12 +285,12 @@
                 </div>
         
                 <!-- Blog Item -->
-                <div class=" flex items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  shadow hover:shadow-lg transition">
+                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 transition border-b">
                     <div class="ml-20">
-                        <h3 class="text-lg font-semibold">Examples to Steal in 2022</h3>
+                        <h3 class="text-lg font-semibold transition group-hover:text-primary">Examples to Steal in 2022</h3>
                         <p class="text-gray-500 mt-2">Lifestyle</p>
                     </div>
-                    <a href="#" class="ml-auto text-yellow-500 hover:scale-105 transition-transform">
+                    <a href="#" class="ml-auto text-primary  group-hover:translate-x-2 transition-transform">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
@@ -268,9 +298,9 @@
                 </div>
         
                 <!-- Blog Item -->
-                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  hover:shadow-lg transition">
+                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 border-btransition">
                     <div class="ml-20">
-                        <h3 class="text-lg font-semibold">App Development</h3>
+                        <h3 class="text-lg font-semibold transition group-hover:text-primary">App Development</h3>
                         <p class="text-gray-500 mt-2">Design</p>
                     </div>
                     <a href="#" class="ml-auto text-primary group-hover:translate-x-2 transition-transform">
