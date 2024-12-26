@@ -44,12 +44,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="38px" height="48px"><path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"/></svg>
                 </button>
             <a href="#" class="text-3xl font-bold animate-on-scroll slide-in-left">Hevin<span class="text-primary">.</span></a>
-            <div id="nav-links" class="hidden flex-col md:flex md:flex-row space-x-8 font-medium">
-                <a href="#" class="hover:text-primary animate-on-scroll slide-in-left animate-underline" >Home</a>
-                <a href="#about" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="100ms">About</a>
-                <a href="#blogs" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="250ms">Blog</a>
-            </div>
+            
             <div class="flex items-center space-x-4">
+                <div id="nav-links" class="hidden flex-col md:flex md:flex-row space-x-4 font-medium">
+                    <a href="#" class="hover:text-primary animate-on-scroll slide-in-left animate-underline" >Home</a>
+                    <a href="#about" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="100ms">About</a>
+                    <a href="#blogs" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="250ms">Blog</a>
+                </div>
                 <a href="#contact" class="scroll-smooth px-5 py-2 bg-primary text-white cursor-pointer rounded-full font-medium hover:bg-opacity-90 transition">Contact Us</a>
                 <button id="dark-mode-toggle" aria-label="Toggle Dark Mode" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
                     <svg id="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -258,57 +259,46 @@
             </div>
         
             <div class="grid gap-8 mt-10 md:grid-cols-2">
-                <!-- Blog Item -->
-                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 border-b transition">
-                    <div class="ml-20">
-                        <h3 class="text-lg font-semibold transition :text-primary ">What is Digital Branding?</h3>
-                        <p class="text-gray-500 mt-2">Creative</p>
+                <div class="relative rounded-lg overflow-hidden shadow-lg group">
+                    <div class="overflow-hidden h-48">
+                        <img src="assets/digital-branding.avif" alt="Rocky Mountain" class="w-full h-48 object-cover transition group-hover:scale-150">
                     </div>
-                    <a href="#" class="ml-auto text-primary  group-hover:translate-x-2 transition-transform ">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
-                </div>
-        
-                <!-- Blog Item -->
-                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  transition border-b">
-                    <div class="ml-20">
-                        <h3 class="text-lg font-semibold transition group-hover:text-primary">How Much Does Cost?</h3>
-                        <p class="text-gray-500 mt-2">Creative</p>
+                    <div class="absolute top-4 left-4 bg-gray-800 text-white text-sm px-3 py-1 rounded">Featured</div>
+                    <div class="p-4 dark:bg-gray-800  bg-white z-1">
+                      <p class="text-sm text-gray-600 dark:text-white uppercase mb-1">Creative</p>
+                      <h2 class="text-lg font-semibold dark:text-white text-gray-800">What is Digital Branding?</h2>
                     </div>
-                    <a href="#" class="ml-auto text-primary group-hover:translate-x-2 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
-                </div>
-        
-                <!-- Blog Item -->
-                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 transition border-b">
-                    <div class="ml-20">
-                        <h3 class="text-lg font-semibold transition group-hover:text-primary">Examples to Steal in 2022</h3>
-                        <p class="text-gray-500 mt-2">Lifestyle</p>
+                  </div>
+                  <div class="relative rounded-lg overflow-hidden shadow-lg group">
+                    <div class="overflow-hidden h-48">
+                        <img src="assets/price.jpeg" alt="Rocky Mountain" class="w-full h-48 object-cover transition group-hover:scale-150">
                     </div>
-                    <a href="#" class="ml-auto text-primary  group-hover:translate-x-2 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
-                </div>
-        
-                <!-- Blog Item -->
-                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800 border-btransition">
-                    <div class="ml-20">
-                        <h3 class="text-lg font-semibold transition group-hover:text-primary">App Development</h3>
-                        <p class="text-gray-500 mt-2">Design</p>
+                    <div class="absolute top-4 left-4 bg-gray-800 text-white text-sm px-3 py-1 rounded">Featured</div>
+                    <div class="p-4 dark:bg-gray-800 bg-white z-1">
+                      <p class="text-sm text-gray-600 dark:text-white uppercase mb-1">Creative</p>
+                      <h2 class="text-lg font-semibold dark:text-white text-gray-800">How much does it cost?</h2>
                     </div>
-                    <a href="#" class="ml-auto text-primary group-hover:translate-x-2 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
-                </div>
+                  </div>
+                  <div class="relative rounded-lg overflow-hidden shadow-lg group">
+                    <div class="overflow-hidden h-48">
+                        <img src="assets/mitravel-blog-card-tranmautritam_4x.png" alt="Rocky Mountain" class="w-full h-48 object-cover transition group-hover:scale-150">
+                    </div>
+                    <div class="absolute top-4 left-4 bg-gray-800 text-white text-sm px-3 py-1 rounded">Featured</div>
+                    <div class="p-4 dark:bg-gray-800  bg-white z-1">
+                      <p class="text-sm text-gray-600 dark:text-white uppercase mb-1">Creative</p>
+                      <h2 class="text-lg font-semibold dark:text-white text-gray-800">Examples to Steal in 2025</h2>
+                    </div>
+                  </div>
+                  <div class="relative rounded-lg overflow-hidden shadow-lg group">
+                    <div class="overflow-hidden h-48">
+                        <img src="assets/mobile-app-development.png" alt="Rocky Mountain" class="w-full h-48 object-cover transition group-hover:scale-150">
+                    </div>
+                    <div class="absolute top-4 left-4 bg-gray-800 text-white text-sm px-3 py-1 rounded">Featured</div>
+                    <div class="p-4 dark:bg-gray-800 bg-white z-1">
+                      <p class="text-sm text-gray-600 dark:text-white uppercase mb-1">Creative</p>
+                      <h2 class="text-lg font-semibold dark:text-white text-gray-800">Mobile app development trends 2025</h2>
+                    </div>
+                  </div>               
             </div>
         
             <!-- All Blogs Button -->
