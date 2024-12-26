@@ -38,22 +38,19 @@
     <script src="script.js" defer></script>
 </head>
 <body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
-    <header class="sticky top-0 bg-white dark:bg-gray-800">
-        <nav class="flex items-center justify-between p-5 max-w-6xl mx-auto">
+    <header class="sticky top-0 bg-white dark:bg-gray-800 z-[1000]">
+        <nav class="flex items-center justify-between p-5 max-w-6xl mx-auto font-poppins">
                 <button type="button" id="nav-toogle" class=" dark:text-white md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="38px" height="48px"><path d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"/></svg>
                 </button>
             <a href="#" class="text-3xl font-bold animate-on-scroll slide-in-left">Hevin<span class="text-primary">.</span></a>
             <div id="nav-links" class="hidden flex-col md:flex md:flex-row space-x-8 font-medium">
-                <a href="#" class="hover:text-primary animate-on-scroll slide-in-left" >Home</a>
-                <a href="#services" class="hover:text-primary  animate-on-scroll slide-in-left" data-delay="50ms">Services</a>
-                <a href="#about" class="hover:text-primary  animate-on-scroll slide-in-left" data-delay="100ms">About Me</a>
-                <a href="#portfolio" class="hover:text-primary  animate-on-scroll slide-in-left" data-delay="150ms">Portfolio</a>
-                <a href="#reviews" class="hover:text-primary  animate-on-scroll slide-in-left" data-delay="200ms">Reviews</a>
-                <a href="#blog" class="hover:text-primary  animate-on-scroll slide-in-left" data-delay="250ms">Blog</a>
+                <a href="#" class="hover:text-primary animate-on-scroll slide-in-left animate-underline" >Home</a>
+                <a href="#about" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="100ms">About</a>
+                <a href="#blog" class="hover:text-primary  animate-on-scroll slide-in-left animate-underline" data-delay="250ms">Blog</a>
             </div>
             <div class="flex items-center space-x-4">
-                <a href="#contact" class="scroll-smooth px-5 py-2 bg-primary text-white cursor-pointer rounded-full font-medium hover:bg-opacity-90 transition">Contact Me</a>
+                <a href="#contact" class="scroll-smooth px-5 py-2 bg-primary text-white cursor-pointer rounded-full font-medium hover:bg-opacity-90 transition">Contact Us</a>
                 <button id="dark-mode-toggle" aria-label="Toggle Dark Mode" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition">
                     <svg id="dark-mode-icon" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path id="sun-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-8.66h-1m-16 0h-1M4.93 4.93l-.707.707m14.14 0l.707-.707M4.93 19.07l-.707-.707m14.14 0l.707.707M12 5a7 7 0 000 14 7 7 0 000-14z" />
@@ -68,20 +65,20 @@
         <!-- Hero Section -->
         <section class="flex flex-col-reverse md:flex-row  mt-10 md:mt-20">
             <div class="md:w-1/2 font-poppins">
-                <h1 class="text-8xl font-[124px] font-poppins">
+                <h1 class="text-8xl font-[124px] font-poppins animate-on-scroll slide-in-left">
                     Hey<span class="text-primary"></span> <br> I<span class="text-primary">'</span>m Hevin
                 </h1>
-                <h2 class="text-2xl font-light mt-4">
+                <h2 class="text-2xl font-light mt-4 animate-on-scroll slide-in-left" data-delay="50ms">
                     I<span class="text-primary">'</span>m a <span id="typewriter" class="text-primary font-medium blinking"></span>
                 </h2>
-                <p class="mt-6 text-gray-600 dark:text-gray-400 leading-relaxed">
+                <p class="mt-6 text-gray-600 dark:text-gray-400 leading-relaxed animate-on-scroll slide-in-left" data-delay="100ms">
                     I’m a Web developer & I’m very passionate and dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.
                 </p>
                 <div class="flex gap-2">
-                    <a href="#contact" class="mt-8 px-6 py-3 bg-primary text-white font-medium rounded-full shadow hover:bg-opacity-90 transition">
+                    <a href="#contact" class="mt-8 px-6 py-3 bg-primary text-white font-medium rounded-full shadow hover:bg-opacity-90 transition animate-on-scroll slide-in-up">
                         Let’s Talk
                     </a>
-                    <a href="assets/banner-image1-1.png" download="hevin-cv" class="mt-8 px-6 py-3 bg-primary text-white font-medium rounded-full shadow hover:bg-opacity-90 transition">
+                    <a href="assets/banner-image1-1.png" download="hevin-cv" class="mt-8 px-6 py-3 bg-primary text-white font-medium rounded-full shadow hover:bg-opacity-90 transition animate-on-scroll slide-in-up">
                         Download CV
                     </a>
                 </div>
@@ -114,7 +111,7 @@
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center reletive">
-                <img src="assets/banner-image1-1.png" alt="Hevin" class="">
+                <img src="assets/banner-image1-1.png" alt="Hevin" class="animate-on-scroll slide-in-up">
                 <!-- <div class="absolute bottom-0">
                 <div class="relative flex items-center justify-center ">
 
@@ -142,7 +139,7 @@
                 <!-- About Me Text -->
                 <div>
                     <h2 class="text-primary text-lg font-semibold uppercase tracking-wide">I Am a Web Developer</h2>
-                    <h1 class="text-4xl font-bold mt-3">About Me</h1>
+                    <h1 class="text-4xl font-medium mt-3 animate-underline">About Me</h1>
                     <p class="mt-5 text-gray-600 leading-relaxed">
                         My name is Hevin. I have been studying UI/UX Design since October 2020. I like creating cool design projects.
                     </p>
@@ -156,7 +153,7 @@
                     <h3 class="text-2xl font-medium mb-6">Skills</h3>
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <!-- Skill Item -->
-                        <div class="text-center animate-on-scroll slide-in-down">
+                        <div class="text-center animate-on-scroll slide-in-down -z-10">
                             <div class="w-20 h-20 mx-auto bg-gray-100 flex items-center justify-center rounded-full shadow">
                                 <img src="https://cdn-icons-png.flaticon.com/512/174/174881.png" alt="WordPress" class="w-10 h-10">
                             </div>
@@ -164,7 +161,7 @@
                             <p class="text-sm text-gray-600">WordPress</p>
                         </div>
                         <!-- Skill Item -->
-                        <div class="text-center animate-on-scroll slide-in-down" data-delay="50ms">
+                        <div class="text-center animate-on-scroll slide-in-down -z-10" data-delay="50ms">
                             <div class="w-20 h-20 mx-auto bg-gray-100 flex items-center justify-center rounded-full shadow">
                                 <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" class="w-10 h-10">
                             </div>
@@ -172,7 +169,7 @@
                             <p class="text-sm text-gray-600">HTML</p>
                         </div>
                         <!-- Skill Item -->
-                        <div class="text-center animate-on-scroll slide-in-down" data-delay="100ms">
+                        <div class="text-center animate-on-scroll slide-in-down -z-10" data-delay="100ms">
                             <div class="w-20 h-20 mx-auto bg-gray-100 flex items-center justify-center rounded-full shadow">
                                 <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" class="w-10 h-10">
                             </div>
@@ -180,7 +177,7 @@
                             <p class="text-sm text-gray-600">CSS</p>
                         </div>
                         <!-- Skill Item -->
-                        <div class="text-center animate-on-scroll slide-in-down" data-delay="150ms">
+                        <div class="text-center animate-on-scroll slide-in-down -z-10" data-delay="150ms">
                             <div class="w-20 h-20 mx-auto bg-gray-100 flex items-center justify-center rounded-full shadow">
                                 <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Angular" class="w-10 h-10">
                             </div>
@@ -271,12 +268,12 @@
                 </div>
         
                 <!-- Blog Item -->
-                <div class=" flex items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  hover:shadow-lg transition">
+                <div class="group flex cursor-pointer items-start bg-gray-50 p-6 rounded-lg dark:bg-gray-800  hover:shadow-lg transition">
                     <div class="ml-20">
                         <h3 class="text-lg font-semibold">App Development</h3>
                         <p class="text-gray-500 mt-2">Design</p>
                     </div>
-                    <a href="#" class="ml-auto text-yellow-500 hover:scale-105 transition-transform">
+                    <a href="#" class="ml-auto text-primary group-hover:translate-x-2 transition-transform">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
@@ -286,7 +283,7 @@
         
             <!-- All Blogs Button -->
             <div class="text-center mt-10">
-                <a href="/blogs.html" class="bg-yellow-500 text-white px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg hover:bg-yellow-600 transition">
+                <a href="/blogs.html" class="border font-poppins border-yellow-500 text-yellow-500 px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg hover:bg-yellow-500 hover:text-white hover:dark:text-gray-900 transition">
                     All Blogs
                 </a>
             </div>
@@ -353,7 +350,7 @@
                     <div class="w-full text-end">
                         <button
                           type="submit"
-                          class="px-6 py-3 bg-yellow-600 bg-transparent text-white rounded-full hover:shadow-xl transition hover:shadow-amber-200 hover:bg-yellow-500"
+                          class="border border-yellow-500 text-yellow-500 px-6 py-3 rounded-full font-semibold shadow hover:shadow-lg hover:bg-yellow-500 hover:text-white hover:dark:text-gray-900 transition font-poppins"
                         >
                           Send Message
                         </button>

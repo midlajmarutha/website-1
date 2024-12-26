@@ -30,7 +30,8 @@ window.scroll({behavior:"smooth"})
 // Animate on Scroll (AOS) Functionality
 document.addEventListener("DOMContentLoaded", () => {
     const animateElements = document.querySelectorAll(".animate-on-scroll");
-  
+    const navSections = document.querySelectorAll("section")
+    const nav = document.querySelector("nav")
     const observerOptions = {
       root: null, // Use the viewport as the container
       rootMargin: "0px",
@@ -49,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const observer = new IntersectionObserver(animateOnScroll, observerOptions);
-  
+
     animateElements.forEach((el) => {
       observer.observe(el);
     });
